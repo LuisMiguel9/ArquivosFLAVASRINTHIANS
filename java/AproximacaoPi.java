@@ -12,18 +12,15 @@ public class AproximacaoPi {
         for(int j = 1;j<i;j++){
             if(j%2!=0){
                 pi += (4/(a*b*c));
-                System.out.printf("%.6f\n",pi);
-                a +=2;
-                b+=2;
-                c+=2;
             }
             else{
                 pi -= (4/(a*b*c));
-                System.out.printf("%.6f\n",pi);
-                a +=2;
-                b+=2;
-                c+=2;
+                
             }
+            System.out.printf("%.6f\n",pi);
+            a +=2;
+            b+=2;
+            c+=2;
         }
         scan.close();
     }
