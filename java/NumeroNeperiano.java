@@ -14,17 +14,15 @@ public class NumeroNeperiano {
 
     }
     static double fatorial(double n){
-        double mult=1;
-        if(n == 0){
-            return mult;
+        double x=n;
+        double multi=1;
+        while(x > 0){
+            multi*=x;
+            x--;
         }
-        else{
-            for(double i = 1;i<=n;i++){
-                mult*=i;
-            }
-        }
-            return mult;
-        }
+        return multi;
+
+    }
 
     }
 
