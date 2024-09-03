@@ -14,7 +14,6 @@ public class NumeroNeperiano {
 
     }
     static double fatorial(double n){
-        double x=0;
         double mult=1;
         if(n == 0){
             return mult;
